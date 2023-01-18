@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+
+{% for i in count %}
+    <h2> The count of recordings of {{  genre  }}: {{  i[0]  }} </h2>
+{% endfor %}
+
+{% for i in tracks %}
+    <p> {{  i[0]  }}  {{  i[1]  }} {{  i[2]  }} </p>
+{% endfor %}

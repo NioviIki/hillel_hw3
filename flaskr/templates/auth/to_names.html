@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+{% for i in count %}
+  <body>
+    <h2> Count of unique performers: {{  i[0]  }} </h2>
+  </body>
+{% endfor %}
+<h3> Unique performers:</h3>
+{% for i in artist %}
+  <body>
+    <p>{{  i[0]  }} </p>
+  </body>
+{% endfor %}
