@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+
+<h3> People in Space: {{  count  }}, namely:</h3>
+
+{% for i in name_craft %}
+  <body>
+    <p> name: {{ i.get("name") }}; craft: {{i.get("craft")}} </p>
+  </body>
+{% endfor %}
